@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/c_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:onClick="playC"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+    <Button
+
+        android:id="@+id/d_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:onClick="playD"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+    <Button
+
+        android:id="@+id/e_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/yellow"
+        android:onClick="playE"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+    <Button
+
+        android:id="@+id/f_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_light"
+        android:onClick="playF"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+    <Button
+
+        android:id="@+id/g_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/turquoise"
+        android:onClick="playG"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+
+    <Button
+
+        android:id="@+id/b_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/purple"
+        android:onClick="playB"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+    <Button
+
+        android:id="@+id/a_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="playA"
+        android:padding="20dp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
